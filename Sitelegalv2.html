@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Site legal v2</title>
+        <link rel="stylesheet" href="https://kit.fontawesome.com/5bd594004c.css" crossorigin="anonymous">
+    </head>
+
+    <style>
+
+        div{
+            border:2px solid white;
+            border-radius: 10px;
+        }
+
+        body{
+            margin: 0 auto;
+            padding-left: 30%;
+            background-color: rgb(180, 216, 223);
+            color: black;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        h1{
+            font-size: 1.4cm;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        #titulo{
+            width: 600px;
+            height: fit-content; 
+            background-color: rgb(56, 97, 80);
+            color: white;
+            text-align: center;
+            box-shadow: 0px 0px 10px 1px white;
+        }
+
+        #casinha{
+            margin-left: 30%;
+            padding:5px;
+            width:fit-content;
+            background-color:rgb(82, 167, 167);
+            border:2px solid white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 1px white;
+        }
+        
+        #formulario{
+            align-items: center;
+            width: 600px;
+            height: fit-content;
+            color: black;
+            border: 0 solid;
+            box-shadow: 0px 0px 10px black;
+        }
+
+        #itemsform{
+            background-color: aliceblue;
+            border:1px solid black;
+            height: fit-content;
+            padding-top: 1px;
+            padding-bottom: 1px;
+            padding-left: 20px;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        #caixatexto{
+            width: 95%;
+            height: 150px;
+        }
+
+        .caixa{
+            border:1px solid rgb(181, 194, 202);
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px 0px rgb(132, 139, 145);
+        }
+
+        #botaoform{
+            background-color: rgb(66, 145, 119);
+            color:aliceblue;
+            border-top:0 solid black;
+            border-bottom: 1px solid black;
+            border-right: 1px solid black;
+            border-left: 1px solid black;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            height:100px;
+            width:600px;
+            font-size: 1.2cm;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+    </style>
+
+    <body>
+        <div id="titulo">
+            <header>
+                <h1>NOVIDADE!!!</h1>
+                <h2>Este também é um website</h2>
+                <p>Porém este aqui é a segunda versão, ou seja, o primeiro rendeu bem e fizeram um segundo, pra encher linguiça obviamente.</p>
+            </header>
+        </div>
+        <br>
+
+        <!--Casinha-->
+        <div id="casinha">
+            <svg height="50px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>  
+        </div>
+
+        <br>
+        <div id="formulario">
+            <!-- Meu primeiro(segundo) formulário -->
+            <form action="https://webhook.site/fa40de3b-c3e0-4987-b5ae-fc6d2a535c61" method="POST">
+                
+                <div id="itemsform">
+                    <p>Nome: <input class="caixa" id="inputform" type="text" name="nome"></form></p>
+                    <p>Email: &nbsp<input class="caixa" id="inputform" type="text" name="email"></p>
+                    <p>
+                        Escreva sua mensagem: <br><br>
+                        <input id="caixatexto" class="caixa" type="text" name="mensagem">
+                    </p>
+                </div>
+                <input id="botaoform" type="submit" value="Enviar">
+            </form>
+        </div>
+    </body>
+</html>
