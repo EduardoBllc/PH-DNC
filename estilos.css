@@ -1,0 +1,59 @@
+
+*{
+    margin-top: 0;
+    margin-left: 0;
+}
+
+body{
+    background-color:#D881F0;
+}
+
+#titulo{
+    padding: 5px;
+    padding-left: 10px;
+    background-color: #987AF8;
+}
+
+#caixa_inv{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+#caixa_grande{
+    width: 85%;
+    height: 400px;
+    background-color: #A36AD9;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#caixa1{
+    margin-right: 20px;
+    width: 47%;
+    height: 50px;
+    background-color: #F87AAC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#caixa2{
+    margin-left: 20px;
+    width: 47%;
+    height: 50px;
+    background-color: #D96ACD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.borda_branca{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
